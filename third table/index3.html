@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html-tables-example</title>
+    <link rel="stylesheet" href="style3.css" />
+  </head>
+  <body>
+    <div class="head-content">
+      <h1>Famous Foods Guide</h1>
+    </div>
+
+    <div class="table-wrapper">
+      <table aria-labelledby="famousfoods">
+        <thead>
+          <tr>
+            <th id="continent" scope="col">Continents</th>
+            <th id="contry" scope="col">Countries</th>
+            <th id="food" scope="col">Famous Foods</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th id="asia" scope="row" rowspan="3">Asia</th>
+            <td headers="asia korea">Korea</td>
+            <td headers="asia korea food">
+              <div class="food-images">
+                <img src="imgs/kimchi.jpeg" alt="Kimchi" />
+                <img src="imgs/galbi.jpeg" alt="Galbi" />
+                <img src="imgs/bibimbap.jpg" alt="Bibimbap" />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td headers="asia japan">Japan</td>
+            <td headers="asia japan food">
+              <div class="food-images">
+                <img src="imgs/ramen.jpeg" alt="Ramen" />
+                <img src="imgs/sushi.jpeg" alt="Sushi" />
+                <img src="imgs/tendong.jpeg" alt="Tendong" />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td headers="asia china">China</td>
+            <td headers="asia china food">
+              <div class="food-images">
+                <img src="imgs/tangsuyug.jpeg" alt="Tangsuyug" />
+                <img src="imgs/mapatofu.jpeg" alt="Mapatofu" />
+                <img src="imgs/maratang.jpeg" alt="Maratang" />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th id="southamerica" scope="row" rowspan="3">South America</th>
+            <td headers="southamerica brazil">Brazil</td>
+            <td headers="southamerica brazil food">
+              <div class="food-images">
+                <img src="imgs/coxinha.jpeg" alt="Coxinha" />
+                <img src="imgs/feijoada.jpeg" alt="Feijoada" />
+                <img src="imgs/churrasco.jpg" alt="Churrasco" />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td headers="southamerica argentina">Argentina</td>
+            <td headers="southamerica argentina food">
+              <div class="food-images">
+                <img src="imgs/asado.jpeg" alt="Asado" />
+                <img src="imgs/empanada.jpeg" alt="Empanada" />
+                <img src="imgs/provoleta.jpeg" alt="Provoleta" />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td headers="southamerica ecuador">Ecuador</td>
+            <td headers="southamerica ecuador food">
+              <div class="food-images">
+                <img src="imgs/bolon de verde.png" alt="Bolon de verde" />
+                <img
+                  src="imgs/ceviche de camaron.png"
+                  alt="Ceviche de camaron"
+                />
+                <img
+                  src="imgs/fritada de chancho.jpg"
+                  alt="Fritada de chancho"
+                />
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

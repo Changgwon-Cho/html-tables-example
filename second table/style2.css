@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #070304;
+}
+
+caption {
+  caption-side: bottom;
+  margin: 14px 0px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.table-wrapper {
+  margin: 10px 70px 70px;
+}
+
+table thead #hidden {
+  visibility: hidden;
+}
+
+table {
+  font-size: 20px;
+  border: none;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  /* border: solid 1px #9cbbde; */
+}
+
+table td,
+table th {
+  text-align: center;
+  height: 100px;
+  border: solid 1px #9cbbde;
+  padding: 10px;
+}
+
+table thead th {
+  background-color: #b8ceec;
+  font-weight: bold;
+}
+
+table tbody th {
+  text-align: left;
+}
+
+table tr:nth-child(odd) {
+  background-color: #d5e9fd;
+}
+
+table tr:nth-child(even) {
+  background-color: #c2dcf9;
+}
+
+table th #hidden,
+#durability,
+#design,
+#usability,
+#price {
+  width: 35%;
+}

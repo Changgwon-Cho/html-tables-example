@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html-tables-example</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+
+  <body>
+    <h2 class="comparisonchart">Product Comparison Chart</h2>
+    <div class="table-wrapper">
+      <table aria-labelledby="comparisonchart">
+        <caption>
+          Fig: Comparison of the features between the products.
+        </caption>
+        <thead>
+          <tr>
+            <th id="hidden" scope="col"></th>
+            <th id="producta" scope="col">Product A</th>
+            <th id="productb" scope="col">Product B</th>
+            <th id="productc" scope="col">Product C</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th id="durability" scope="row">Durability</th>
+            <td headers="durability">10/10</td>
+            <td headers="durability">5/10</td>
+            <td headers="durability">7/10</td>
+          </tr>
+          <tr>
+            <th id="design" scope="row">Design</th>
+            <td headers="design">3/10</td>
+            <td headers="design">8/10</td>
+            <td headers="design">7/10</td>
+          </tr>
+          <tr>
+            <th id="usability" scope="row">Usability</th>
+            <td headers="usability">7/10</td>
+            <td headers="usability">10/10</td>
+            <td headers="usability">5/10</td>
+          </tr>
+          <tr>
+            <th id="price" scope="row">Price</th>
+            <td headers="price">9/10</td>
+            <td headers="price">7/10</td>
+            <td headers="price">3/10</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
